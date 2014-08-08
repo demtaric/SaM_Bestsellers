@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SaM_Bestsellers>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SaM_Bestsellers>
+    </modules>
+</config>

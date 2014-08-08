@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SaM_Bestsellers>
+            <version>0.1.0</version>
+        </SaM_Bestsellers>
+    </modules>
+    <global>
+        <models>
+            <sam_bestsellers>
+                <class>SaM_Bestsellers_Model</class>
+                <resourceModel>sam_bestsellers_resource</resourceModel>
+            </sam_bestsellers>
+            <sam_bestsellers_resource>
+                <class>SaM_Bestsellers_Model_Resource</class>
+            </sam_bestsellers_resource>
+        </models>
+        <blocks>
+            <sam_bestsellers>
+                <class>SaM_Bestsellers_Block</class>
+            </sam_bestsellers>
+        </blocks>
+        <helpers>
+            <sam_bestsellers>
+                <class>SaM_Bestsellers_Helper</class>
+            </sam_bestsellers>
+        </helpers>
+        <resources>
+            <sam_bestsellers_setup>
+                <setup>
+                    <module>SaM_Bestsellers</module>
+                </setup>
+            </sam_bestsellers_setup>
+        </resources>
+    </global>
+    <default>
+        <sam_bestsellers>
+            <settings>
+                <message_text>No best-selling products</message_text>
+            </settings>
+        </sam_bestsellers>
+    </default>
+</config>
