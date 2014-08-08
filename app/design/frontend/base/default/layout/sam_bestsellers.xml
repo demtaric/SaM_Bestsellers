@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <cms_index_index>
+
+        <block type="sam_bestsellers/bestsellers" name="bestsellers" template="sam_bestsellers/bestsellers.phtml"></block>
+
+        <reference name="right">
+            <action method="append" ifconfig="sam_bestsellers/settings/enabled">
+                <block>bestsellers</block>
+            </action>
+        </reference>
+
+        <reference name="left">
+
+        </reference>
+
+    </cms_index_index>
+
+</layout>

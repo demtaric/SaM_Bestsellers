@@ -33,6 +33,15 @@
             </sam_bestsellers_setup>
         </resources>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <sam_bestsellers>
+                    <file>sam_bestsellers.xml</file>
+                </sam_bestsellers>
+            </updates>
+        </layout>
+    </frontend>
     <default>
         <sam_bestsellers>
             <settings>
