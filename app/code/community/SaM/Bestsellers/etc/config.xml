@@ -34,6 +34,17 @@
         </resources>
     </global>
     <frontend>
+        <events>
+            <controller_action_layout_load_before>
+                <observers>
+                    <sam_bestsellers>
+                        <type>model</type>
+                        <class>sam_bestsellers/observer</class>
+                        <method>insertBlock</method>
+                    </sam_bestsellers>
+                </observers>
+            </controller_action_layout_load_before>
+        </events>
         <layout>
             <updates>
                 <sam_bestsellers>

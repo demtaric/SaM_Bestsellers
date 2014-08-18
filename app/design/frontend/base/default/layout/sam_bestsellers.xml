@@ -2,19 +2,23 @@
 <layout version="0.1.0">
 
     <cms_index_index>
-
         <block type="sam_bestsellers/bestsellers" name="bestsellers" template="sam_bestsellers/bestsellers.phtml"></block>
+    </cms_index_index>
 
+    <bestsellers_right>
         <reference name="right">
-            <action method="append" ifconfig="sam_bestsellers/settings/enabled">
+            <action method="append">
                 <block>bestsellers</block>
             </action>
         </reference>
+    </bestsellers_right>
 
+    <bestsellers_left>
         <reference name="left">
-
+            <action method="append">
+                <block>bestsellers</block>
+            </action>
         </reference>
-
-    </cms_index_index>
+    </bestsellers_left>
 
 </layout>
