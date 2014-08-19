@@ -12,7 +12,7 @@
                             <config>
                                 <children>
                                     <sam_bestsellers>
-                                        <title>SaM - Wishlist Counter</title>
+                                        <title>SaM - Bestsellers</title>
                                     </sam_bestsellers>
                                 </children>
                             </config>

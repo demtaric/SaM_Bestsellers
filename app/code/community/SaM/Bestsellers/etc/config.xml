@@ -53,6 +53,17 @@
             </updates>
         </layout>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <sam_bestsellers>
+                    <files>
+                        <default>SaM_Bestsellers.csv</default>
+                    </files>
+                </sam_bestsellers>
+            </modules>
+        </translate>
+    </adminhtml>
     <default>
         <sam_bestsellers>
             <settings>
